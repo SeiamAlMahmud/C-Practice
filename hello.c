@@ -1,9 +1,14 @@
 #include<stdio.h>
 
 int main() {
-   int age;
-    printf("Enter age:");
-    scanf("%d", &age);
-    printf("age is : %d", age);
+   int a,b;
+   printf("Enter a: ");
+    scanf("%d", &a);
+
+    printf("enter b: ");
+    scanf("%d", &b);
+
+    int sum = a + b;
+    printf("Sum is %d\n", sum);
     return 0;
 }
